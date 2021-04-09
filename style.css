@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 8px;
+    }
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  padding: 0.6em;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        padding: 0.4em;
+    }
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        padding: 1.3em;
+    }
+}
+
+
+nav img {
+    height: 20px;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+
+input {
+  width: 60%;
+  padding: 1em;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid rgb(219, 211, 211);
+  }
+
+  @media only screen and (max-width: 600px) {
+    input {
+        width: 98%;
+    }
+}
+
+
+.btns {
+  margin-top: 2em;
+}
+
+.btns button {
+
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+@media only screen and (max-width: 600px) {
+    .btns button {
+        font-size: 7px; 
+        height: 26px;
+
+    }
+}
+
+.btns button:hover {
+    border: 1px solid blue;
+}
+footer {
+    padding: 10px;
+    background: #f2f2f2;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.footer_top {
+  padding: 0.8em;
+  border-bottom: 1px solid #dadce0;
+  padding-left: 1.1em;
+}
+
+.footer_bottom {
+    padding: 0.8em;
+  padding-left: 8em;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0,0,0,.54);
+}
+
+@media only screen and (max-width: 600px) {
+     {
+        padding: 0.4em;
+    }
+}
+
+.right {
+    padding-right: 8em;
+}
+
+
+
+.left a {
+  margin-right: 1em;
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+}
+
+.right a {
+  margin-right: 1em;
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+}
+
+.language {
+  padding: 2em;
+}
+.language a {
+    padding: 0.4em;
+    color: rgb(80, 80, 121)148, 148, 184);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
